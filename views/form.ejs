@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<!--[if lte IE 6]><html class="preIE7 preIE8 preIE9"><![endif]-->
+<!--[if IE 7]><html class="preIE8 preIE9"><![endif]-->
+<!--[if IE 8]><html class="preIE9"><![endif]-->
+<!--[if gte IE 9]><!--><html lang="en"><!--<![endif]-->
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>title</title>
+    <meta name="author" content="Concepsheon Hall">
+    <meta name="description" content="description here">
+    <meta name="keywords" content="keywords,here">
+	
+	<link rel="icon" href="data:;base64,=">
+  </head>
+  <body>
+      
+      <div>
+          <h2>File Metadata Microservice</h2>
+          <p>User Story: I can submit a FormData object that includes a file upload.</p>
+          <p>User Story: When I submit something, I will receive the file size in bytes within the JSON response</p>
+      </div>
+      
+      <form method="post" action="filesize" enctype="multipart/form-data">
+          <input type="file" name="fileInput"/>
+          <button type="submit">Upload</button>
+      </form>
+  </body>
+</html>

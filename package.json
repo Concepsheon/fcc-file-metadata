@@ -1,0 +1,17 @@
+{
+  "name": "file-metadata",
+  "version": "1.0.0",
+  "description": " can submit a FormData object that includes a file upload and receive the file size in bytes within the JSON response",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Concepsheon Hall",
+  "license": "ISC",
+  "dependencies": {
+    "ejs": "^2.4.1",
+    "express": "^4.13.4",
+    "morgan": "^1.7.0",
+    "multer": "^1.1.0"
+  }
+}
