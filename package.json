@@ -4,6 +4,7 @@
   "description": " can submit a FormData object that includes a file upload and receive the file size in bytes within the JSON response",
   "main": "app.js",
   "scripts": {
+    "start":"node app.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Concepsheon Hall",
