@@ -10,7 +10,7 @@ app.set('view engine', 'ejs');
 //omit the options object, the files will be kept in memory and never written to disk.
 var upload = multer();
 
-var port = process.env.PORT || 3000;
+var port = process.env.PORT || 5000;
 var host = process.env.IP || 'localhost';
 
 app.use(morgan('dev'));
