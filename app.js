@@ -11,7 +11,6 @@ app.set('view engine', 'ejs');
 var upload = multer();
 
 var port = process.env.PORT || 5000;
-var host = process.env.IP || 'localhost';
 
 app.use(morgan('dev'));
 
@@ -28,6 +27,4 @@ app.post("/filesize", upload.single("fileInput") ,function(req,res){
 });
 
 
-app.listen(port, host, function(){
-    console.log(`https://${host}:${port}/`);
-})
+app.listen(port);
